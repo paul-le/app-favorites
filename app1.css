@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+
+body{
+	margin:0px;
+	background-image: url('backgroundreddit.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.barremenu{
+	font-family: 'Roboto Mono', monospace;
+	font-size:25px;
+	width: 20%;
+	height: 100%;
+	position: fixed;
+	background-color:#FD4600;
+	text-align: center;
+	border-right: 3px solid black;
+}
+.menu{
+	font-family: 'Roboto Mono', monospace;
+	font-size: 30px;
+}
+.mainpage{
+	height:980px;
+	width: 80%;
+	margin-left: 20%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Roboto Mono', monospace;
+	color:white;
+	font-size: 30px;
+}
+h1{
+	background-color: #FF2724;
+	border-bottom: 3px solid black;
+	padding-top:30px;
+	padding-bottom:30px;
+	margin-top: 0px;
+}
+a:link{
+	text-decoration: none;
+}
+a:visited{
+	text-decoration: none;
+	color:black;
+}
+a:hover {
+  	background-color:#FC870A;
+  	padding-left: 150px;
+ 	padding-right: 147px;
+ 	padding-bottom:15px;s
+	padding-top:15px;
+	border:2px solid black;
+}
+a:active {
+  	text-decoration: none;
+}
+
+.banniere{
+	background-color: #3b3b3d;
+	font-size: 135px;
+	padding-top: 40px;
+	padding-left: 20px;
+	border-bottom: 4px solid #545453;
+}
+
+.banniere img{
+	height: 200px;
+	width: 500px;
+}
+
+.redditicon{
+	text-align: left;
+}
+.titre{
+	text-align: center;
+	float: right;
+}
+.text{
+	padding-left: 10px;
+	padding-top: 50px;
+	height: 50%;
+	font-weight: bold;
+	-webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
+}
+.screenshot{
+	padding-top: 50px;
+}
+.screenshotreddit{
+	height: 750px;
+	width: 350px;
+}
+.content{
+	display: flex;
+	flex-direction: row;
+
+}
+.slogan{
+	font-size:25px;
+	margin-top:0px; 
+	float:right;
+	text-align: center;
+	padding-top: 95px;
+	padding-right:200px;
+}
+
+.visibility{
+	background-color:#FD4600;
+}
