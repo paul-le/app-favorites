@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cousine&display=swap');
+
+
+
+body{
+	margin: 0px;
+	background-image: url('twitchbackground.gif');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.titre{
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	font-family: 'Monoton', cursive;
+}
+.titre a:link{
+	text-decoration: none;
+}
+.titre a:visited{
+	text-decoration: none;
+}
+.titre a:active {
+  	text-decoration: none;
+}
+
+.centre{
+	border:3px solid white;
+	padding: 5px;
+	padding-right: 10px;
+	padding-left:10px;
+	border-radius: 15px;
+	background-image: url('neon2.gif');
+}
+
+.barremenu{
+	font-size:25px;
+	width: 20%;
+	height: 100%;
+	position: fixed;
+	color:white;
+	background-color:#311442;
+	text-align: center;
+	border-right: 3px solid grey;
+	font-family: 'Righteous', cursive;
+
+}
+.barremenu img{
+	height: 40px;
+	width: 60px;
+}
+.menu{
+	color:white;
+}
+.menu a:link{
+	text-decoration: none;	
+}
+.menu a:visited{
+	text-decoration: none;
+	color:white;
+}
+.menu a:hover {
+  	background-color:#C3A3FF;
+  	padding-left: 38%;
+ 	padding-right: 38%;
+ 	padding-bottom:15px;
+	padding-top:15px;
+	border:2px solid black;
+	color:white;
+}
+.menu a:active {
+  	text-decoration: none;
+}
+h1{
+	background-color: #180026;
+	border-bottom: 3px solid grey;
+	padding-top:30px;
+	padding-bottom:30px;
+	margin-top: 0px;
+}
+
+.logo {
+  animation-duration: 3s;
+  animation-name: slidein;
+  height: 200px;
+  width: 200px;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 30%;
+    width: 70%; 
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
+.mainpage{
+	height:980px;
+	width: 80%;
+	margin-left: 20%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: row;
+}
+.page{
+	height:auto;
+	width: 80%;
+	margin-left: 20%;
+	padding-bottom: 15px;
+}
+
+.screenshot{
+	height: 600px;
+	width: 800px;
+	border-radius: 5%;
+	padding-left: 10px;	
+	padding-right: 10px;
+}
+
+.description{
+	color:white;
+	font-size: 25px;
+	font-family: 'Cousine', monospace;
+}

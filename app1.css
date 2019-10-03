@@ -4,7 +4,7 @@
 body{
 	margin:0px;
 	background-image: url('backgroundreddit.jpg');
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	background-size: cover;
 
 }
@@ -19,7 +19,12 @@ body{
 	text-align: center;
 	border-right: 3px solid black;
 }
-.menu{
+.barremenu img{
+	height: 40px;
+	width: 60px;
+}
+
+.menu {
 	font-family: 'Roboto Mono', monospace;
 	font-size: 30px;
 }
@@ -39,15 +44,16 @@ h1{
 	padding-top:30px;
 	padding-bottom:30px;
 	margin-top: 0px;
+	margin-left: -15px;
 }
-a:link{
+.menu a:link{
 	text-decoration: none;
 }
-a:visited{
+.menu a:visited{
 	text-decoration: none;
 	color:black;
 }
-a:hover {
+.menu a:hover {
   	background-color:#FC870A;
   	padding-left: 150px;
  	padding-right: 147px;
@@ -55,7 +61,7 @@ a:hover {
 	padding-top:15px;
 	border:2px solid black;
 }
-a:active {
+.menu a:active {
   	text-decoration: none;
 }
 
