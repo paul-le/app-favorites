@@ -3,8 +3,8 @@
 
 body{
 	margin:0px;
-	background-image: url('backgroundreddit.jpg');
-	background-repeat: repeat;
+	background-image: url('redditbackground2.gif');
+	background-repeat: no-repeat;
 	background-size: cover;
 
 }
@@ -90,17 +90,17 @@ h1{
 	padding-top: 50px;
 	height: 50%;
 	font-weight: bold;
-	-webkit-text-fill-color: white;
+	-webkit-text-fill-color: grey;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-color: white;
 
 }
 .screenshot{
 	padding-top: 50px;
 }
 .screenshotreddit{
-	height: 750px;
-	width: 350px;
+	height: 500px;
+	width: 270px;
 }
 .content{
 	display: flex;

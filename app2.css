@@ -83,7 +83,7 @@ h1{
 }
 
 .logo {
-  animation-duration: 3s;
+  animation-duration: 4s;
   animation-name: slidein;
   height: 200px;
   width: 200px;
@@ -92,8 +92,8 @@ h1{
 
 @keyframes slidein {
   from {
-    margin-left: 30%;
-    width: 70%; 
+    margin-left: 50%;
+    width: 50%; 
   }
 
   to {
